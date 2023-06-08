@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+<style>
+  .justy{
+    color:white;
+ }
+
+  .carousel-inner{
+    height: 500px;
+  } 
+
+
+  
+
+  .justy:hover{
+    color: blue;
+  }
+
+  
+
+</style>
+
+
+
+
+
+
+  </head>
+
+
+
+
+
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-danger">
+        <div class="container-fluid">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item mt-5 ms-2">
+                <a class="nav-link justy" aria-current="page" href="#">HOME</a>
+              </li><br><br>
+              <li class="nav-item mt-5 ms-4">
+                <a class="nav-link justy" href="#">MENU</a>
+              </li><br><br>
+              <li class="nav-item mt-5 ms-4">
+                <a class="nav-link justy" href="#">ABOUT US</a>
+              </li><br><br>
+              <li class="nav-item mt-5 ms-4 me-4 mx-4">
+                <a class="nav-link justy" href="#xyz">ORDER NOW</a>
+              </li><br><br><br>
+
+              <img src="https://cdn.freebiesupply.com/logos/large/2x/paragon-1-logo-png-transparent.png" alt="" width="125px" height="125px">
+               <br><br><br><br>
+
+              <li class="nav-item mt-5 ms-4">
+                <a class="nav-link justy " href="#">PROMOTIONS</a>
+              </li><br><br>
+
+              <li class="nav-item mt-5 me-2 ms-4">
+                <a class="nav-link justy " href="#">OTHER BRANDS</a>
+              </li><br><br>
+
+              <li class="nav-item mt-5 me-2 ms-4">
+                <a class="nav-link justy " href="#abc">LOCATION</a>
+              </li><br><br>
+
+              <li class="nav-item mt-5 me-1 ms-4">
+                <a class="nav-link justy " href="#">CONTACT US</a>
+              </li><br><br>
+             </ul>
+          </div>
+        </div>
+      </nav>
+
+
+     <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true" >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf8ZlDkwK11DFkE7a4wp9F2K2P9-8_R2tJPA&usqp=CAU" 
+            class="d-block w-100 h-75" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUj3kAsBgRPu-zTIt8xeh_-k_GjNS9avDeyw&usqp=CAU" 
+            class="d-block w-100 h-75" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSQzJpSuv-70za4vPiFRYMfk8f016BIlNWpQ&usqp=CAU" 
+            class="d-block w-100 h-75 " alt="">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div> <br><br><br>
+
+     
+      <div class="container" id="xyz">
+        <div class="row">
+          <h1><b><center>Order Your Food Now</center></b></h1><br><br>
+    
+            <div class="col-md-3">
+                <div class="card text-center border-2 border-warning" style="width: 200px; height: auto;">
+                    <div class="card-body">
+                        <img src="download.jpg" alt="" width="150px" height="150px">
+                        <h2 class="card-title"> Pizza </h2>
+                        <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ea?
+                            <h4 class="text-danger"> Rs:150</h4>
+                        </p>
+                        <button class="btn btn-primary"> Buy Now </button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-3">
+              <div class="card text-center border-2 border-warning" style="width: 200px; height: auto;">
+                  <div class="card-body">
+                      <img src="download.jpg" alt="" width="150px" height="150px">
+                      <h2 class="card-title"> salad </h2>
+                      <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ea?
+                          <h4 class="text-danger"> Rs:120</h4>
+                      </p>
+                      <button class="btn btn-primary"> Buy Now </button>
+                  </div>
+              </div>
+          </div>
+      
+      
+          <div class="col-md-3">
+            <div class="card text-center border-2 border-warning" style="width: 200px; height: auto;">
+                <div class="card-body">
+                    <img src="download.jpg" alt="" width="150px" height="150px">
+                    <h2 class="card-title"> Burger </h2>
+                    <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ea?
+                        <h4 class="text-danger"> Rs:200</h4>
+                    </p>
+                    <button class="btn btn-primary"> Buy Now </button>
+                </div>
+            </div>
+        </div>
+      
+        <div class="col-md-3">
+          <div class="card text-center border-2 border-warning" style="width: 200px; height: auto;">
+              <div class="card-body">
+                  <img src="download.jpg" alt="" width="150px" height="150px">
+                  <h2 class="card-title"> Biriyani </h2>
+                  <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ea?
+                      <h4 class="text-danger"> Rs:250</h4>
+                  </p>
+                  <button class="btn btn-primary"> Buy Now </button>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>  <br><br>
+
+<div class="container-fluid bg-warning" id="abc">
+  <h1><center>Location</center></h1>
+  <div class="row">
+    <div class="col-6">  
+      <h3>Address:</h3>
+       Kannur Rd,<br>
+       near CH Over bridge, <br>
+        Kozhikode,<br>
+      Kerala 673001
+    </div>
+  
+  
+  
+  
+  <div class="col-6">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31304.50790972336!2d75.74349257910158!3d11.256739999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba65933741e5001%3A0x2cb600171e0f8aa!2sParagon%20Restaurant!5e0!3m2!1sen!2sin!4v1680332624604!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  </div>
+</div>
+
+   
+   
+   
+   
+   
+   
+   
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>   
+</body>
+</html>
